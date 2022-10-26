@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="memorygame.css">
+</head>
+
+<body>
+    <h1>Memory Game!</h1>
+    <div id="game">
+        <div class="row">
+            <div data-color='red' class="card red color-hidden" onClick="onCardClicked(event)"></div>
+            <div data-color='orange' class="card orange color-hidden" onClick="onCardClicked(event)"></div>
+            <div data-color='blue' class="card blue color-hidden" onClick="onCardClicked(event)"></div>
+            <div data-color='green' class="card green color-hidden" onClick="onCardClicked(event)"></div>
+            <div data-color='purple' class="card purple color-hidden" onClick="onCardClicked(event)"></div>
+        </div>
+        <div class="row">
+            <div data-color='orange' class="card orange color-hidden" onClick="onCardClicked(event)"></div>
+            <div data-color='purple' class="card purple color-hidden" onClick="onCardClicked(event)"></div>
+            <div data-color='green' class="card green color-hidden" onClick="onCardClicked(event)"></div>
+            <div data-color='red' class="card red color-hidden" onClick="onCardClicked(event)"></div>
+            <div data-color='blue' class="card blue color-hidden" onClick="onCardClicked(event)"></div>
+        </div>
+    </div>
+    <p>
+        <a id="restart" href="memorygame.html">Play Again</a>
+    </p>
+    <script src="memorygame.js"></script>
+</body>
+
+</html>
